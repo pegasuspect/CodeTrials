@@ -9,7 +9,7 @@ def initializeApp
     greeting
     duffy_say "What is your name? ", false
     $user_name = gets.chomp
-    name = $user_name.capitalize.gsub(/S/, "TH")
+    name = user_name.capitalize.gsub(/S/, "TH")
 
     duffy_say "Nice to meet you #{name}! I am Duffy Duck! Tell me what to say. You can say \"stop\" to stop talking to me!"
 end
